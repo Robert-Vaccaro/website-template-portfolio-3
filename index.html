@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<title>Portfolio Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.bobby-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('images/woman3.jpeg');
+  min-height: 100%;
+}
+</style>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="bobby-sidebar bobby-hide-medium bobby-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="bobby-sidebar bobby-black bobby-animate-right bobby-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="bobby-button bobby-black bobby-xxxlarge bobby-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="bobby-bar-block bobby-center">
+    <a href="#" class="bobby-bar-item bobby-button bobby-text-grey bobby-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="bobby-bar-item bobby-button bobby-text-grey bobby-hover-black" onclick="closeNav()">Portfolio</a>
+    <a href="#about" class="bobby-bar-item bobby-button bobby-text-grey bobby-hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="bobby-bar-item bobby-button bobby-text-grey bobby-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="bobby-main bobby-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="bobby-button bobby-top bobby-white bobby-xxlarge bobby-text-grey bobby-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="bobby-container bobby-center" style="padding:128px 16px" id="home">
+    <h1 class="bobby-jumbo"><b>Jane Doe</b></h1>
+    <p>Photographer and Web Designer.</p>
+    <img src="images/woman3.jpeg" class="bobby-image bobby-hide-large bobby-hide-small bobby-round" style="display:block;width:60%;margin:auto;">
+    <img src="images/woman3.jpeg" class="bobby-image bobby-hide-large bobby-hide-medium bobby-round" width="1000" height="1333">
+    <button class="bobby-button bobby-light-grey bobby-padding-large bobby-margin-top">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+  </header>
+
+  <!-- Portfolio Section -->
+  <div class="bobby-padding-32 bobby-content" id="portfolio">
+    <h2 class="bobby-text-grey">My Portfolio</h2>
+    <hr class="bobby-opacity">
+
+    <!-- Grid for photos -->
+    <div class="bobby-row-padding" style="margin:0 -16px">
+      <div class="bobby-half">
+        <img src="images/bg1.jpg" style="width:100%">
+        <img src="images/bg2.jpg" style="width:100%">
+        <img src="images/bg3.jpg" style="width:100%">
+        <img src="images/bg8.jpg" style="width:100%">
+      </div>
+
+      <div class="bobby-half">
+        <img src="images/bg4.jpg" style="width:100%">
+        <img src="images/bg5.jpg" style="width:100%">
+        <img src="images/bg6.jpg" style="width:100%">
+        <img src="images/bg7.jpg" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- About Section -->
+  <div class="bobby-content bobby-justify bobby-text-grey bobby-padding-32" id="about">
+    <h2>About</h2>
+    <hr class="bobby-opacity">
+    <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing
+      elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <h3 class="bobby-padding-16">My Skills</h3>
+    <p class="bobby-wide">Photography</p>
+    <div class="bobby-light-grey">
+      <div class="bobby-container bobby-center bobby-padding-small bobby-dark-grey" style="width:95%">95%</div>
+    </div>
+    <p class="bobby-wide">Web Design</p>
+    <div class="bobby-light-grey">
+      <div class="bobby-container bobby-center bobby-padding-small bobby-dark-grey" style="width:85%">85%</div>
+    </div>
+    <p class="bobby-wide">Photoshop</p>
+    <div class="bobby-light-grey">
+      <div class="bobby-container bobby-center bobby-padding-small bobby-dark-grey" style="width:80%">80%</div>
+    </div><br>
+
+    <div class="bobby-row bobby-center bobby-dark-grey bobby-padding-16 bobby-section">
+      <div class="bobby-quarter bobby-section">
+        <span class="bobby-xlarge">14+</span><br>
+        Partners
+      </div>
+      <div class="bobby-quarter bobby-section">
+        <span class="bobby-xlarge">55+</span><br>
+        Projects Done
+      </div>
+      <div class="bobby-quarter bobby-section">
+        <span class="bobby-xlarge">89+</span><br>
+        Happy Clients
+      </div>
+      <div class="bobby-quarter bobby-section">
+        <span class="bobby-xlarge">150+</span><br>
+        Meetings
+      </div>
+    </div>
+
+    <button class="bobby-button bobby-light-grey bobby-padding-large bobby-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+
+    <!-- Testimonials -->
+    <h3 class="bobby-padding-24">My Reputation</h3>
+    <img src="images/woman2.jpg" alt="Avatar" class="bobby-left bobby-circle bobby-margin-right" style="width:80px">
+    <p><span class="bobby-large bobby-text-black bobby-margin-right">Chandler Bing.</span> Web Designer.</p>
+    <p>Jane Doe is just awesome. I am so happy to have met her!</p><br>
+   
+    <img src="images/man1.jpg" alt="Avatar" class="bobby-left bobby-circle bobby-margin-right" style="width:80px">
+    <p><span class="bobby-large bobby-text-black bobby-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
+    <p>Jane Doe saved us from a web disaster.</p><br>
+    
+    <img src="images/man2.jpg" alt="Avatar" class="bobby-left bobby-circle bobby-margin-right" style="width:80px">
+    <p><span class="bobby-large bobby-text-black bobby-margin-right">Rebecca Flex.</span> CEO at Company.</p>
+    <p>No one is better than Jane Doe.</p><br>
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="bobby-padding-16">My Price</h3>
+    <div class="bobby-row-padding" style="margin:0 -16px">
+      <div class="bobby-half bobby-margin-bottom">
+        <ul class="bobby-ul bobby-center bobby-card bobby-hover-shadow">
+          <li class="bobby-dark-grey bobby-xlarge bobby-padding-32">Basic</li>
+          <li class="bobby-padding-16">Web Design</li>
+          <li class="bobby-padding-16">Photography</li>
+          <li class="bobby-padding-16">5GB Storage</li>
+          <li class="bobby-padding-16">Mail Support</li>
+          <li class="bobby-padding-16">
+            <h2>$ 10</h2>
+            <span class="bobby-opacity">per month</span>
+          </li>
+          <li class="bobby-light-grey bobby-padding-24">
+            <button class="bobby-button bobby-white bobby-padding-large bobby-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="bobby-half">
+        <ul class="bobby-ul bobby-center bobby-card bobby-hover-shadow">
+          <li class="bobby-black bobby-xlarge bobby-padding-32">Pro</li>
+          <li class="bobby-padding-16">Web Design</li>
+          <li class="bobby-padding-16">Photography</li>
+          <li class="bobby-padding-16">50GB Storage</li>
+          <li class="bobby-padding-16">Endless Support</li>
+          <li class="bobby-padding-16">
+            <h2>$ 25</h2>
+            <span class="bobby-opacity">per month</span>
+          </li>
+          <li class="bobby-light-grey bobby-padding-24">
+            <button class="bobby-button bobby-white bobby-padding-large bobby-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+  <!-- End About Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="bobby-padding-32 bobby-content bobby-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contact Me</h2>
+    <hr class="bobby-opacity">
+
+    <div class="bobby-section">
+      <p><i class="fa fa-map-marker fa-fw bobby-xxlarge bobby-margin-right"></i> Chicago, US</p>
+      <p><i class="fa fa-phone fa-fw bobby-xxlarge bobby-margin-right"></i> Phone: +00 151515</p>
+      <p><i class="fa fa-envelope fa-fw bobby-xxlarge bobby-margin-right"> </i> Email: mail@mail.com</p>
+    </div>
+    
+    <!-- Image of location/map -->
+    <img src="images/bg15.jpg" class="bobby-image bobby-greyscale" style="width:100%;margin:32px 0">
+   
+    <p>Lets get in touch. Send me a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="bobby-input bobby-padding-16 bobby-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="bobby-input bobby-padding-16 bobby-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="bobby-input bobby-padding-16 bobby-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="bobby-input bobby-padding-16 bobby-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="bobby-button bobby-light-grey bobby-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>  
+  
+  <!-- Footer -->
+  <footer class="bobby-container bobby-padding-64 bobby-light-grey bobby-center bobby-opacity bobby-xlarge" style="margin:-24px">
+    <i class="fa fa-facebook-official bobby-hover-opacity"></i>
+    <i class="fa fa-instagram bobby-hover-opacity"></i>
+    <i class="fa fa-snapchat bobby-hover-opacity"></i>
+    <i class="fa fa-pinterest-p bobby-hover-opacity"></i>
+    <i class="fa fa-twitter bobby-hover-opacity"></i>
+    <i class="fa fa-linkedin bobby-hover-opacity"></i>
+  <!-- End footer -->
+  </footer>
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
